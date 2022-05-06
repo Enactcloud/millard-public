@@ -1,0 +1,68 @@
+{
+  "clientSchemaVersion": 1,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "HomePage",
+    "Contacts",
+    "Jobs",
+    "PurchaseReport",
+    "UploadBid"
+  ],
+  "publishedPageOrder": [
+    "HomePage",
+    "Contacts",
+    "Jobs",
+    "PurchaseReport",
+    "UploadBid"
+  ],
+  "publishedDefaultPageName": "HomePage",
+  "unpublishedDefaultPageName": "HomePage",
+  "invisibleActionFields": {
+    "Contacts_loadContacts": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Jobs_loadJobs": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "PurchaseReport_getContacts": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "PurchaseReport_getJobs": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "PurchaseReport_getPurchaseReports": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UploadBid_getContacts": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "UploadBid_getJobs": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    }
+  },
+  "publishedTheme": {
+    "name": "Classic",
+    "displayName": "Classic",
+    "isSystemTheme": true,
+    "deleted": false,
+    "policies": [
+      {
+        "permission": "read:themes",
+        "users": [
+          "anonymousUser"
+        ],
+        "groups": []
+      }
+    ]
+  },
+  "publishedLayoutmongoEscapedWidgets": {},
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
+}
